@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/global.css">
+   <link rel="stylesheet" href="css/utilities.css">
+   <script src="https://kit.fontawesome.com/e05f21b32e.js" crossorigin="anonymous"></script>
+   <script src="main.js" defer></script>
+   <title>Pixel Art Canvas</title>
+</head>
+
+<body>
+   <div class="container center">
+      <i class="fas fa-chevron-down toggle-toolbar-btn" id="toggle-toolbar-btn"></i>
+      <div>
+         <!-- Canvas -->
+         <canvas class="canvas" id="canvas"></canvas>
+
+         <!-- Grid Guide Lines -->
+         <div class="guide-lines" id="guide-lines"></div>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="toolbar" id="toolbar">
+
+         <!-- Color Picker -->
+         <div>
+            <label for="color-input">Choose a color:</label>
+            <input type="color" id="color-input" class="color-input" />
+         </div>
+
+         <!-- Toggle Grid Lines -->
+         <div>
+            <label for="guide">Show guide:</label>
+            <input type="checkbox" class="guide-lines-toggle" id="guide-lines-toggle" checked>
+         </div>
+
+         <div>
+            <button type="button" class="btn btn-primary clear-canvas-btn" id="clear-canvas-btn">Clear Canvas</button>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
