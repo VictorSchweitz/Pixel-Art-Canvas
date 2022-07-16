@@ -27,6 +27,9 @@ const drawingCanvasContext = canvas.getContext('2d')
 const guideLinesToggle = document.getElementById('guide-lines-toggle')
 const colorInput = document.getElementById('color-input')
 const clearCanvasBtn = document.getElementById('clear-canvas-btn')
+canvas.width = 600
+canvas.height = 600
+
 
 // Number of cells for canvas length and height
 const cellSideCount = 5
